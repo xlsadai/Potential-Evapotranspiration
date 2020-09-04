@@ -165,8 +165,6 @@ class refPET():
 
         """计算潜在蒸散发"""
         self.calculate_PET()
-        if self.PET < 0:
-            print(self.PET)
         return self.PET
 
 
